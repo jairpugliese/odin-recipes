@@ -34,9 +34,11 @@ margin increases the space between the borders of a box and the borders of adjac
   display: flex;
 }
 
-.one{
+.one, .two, .three {
   background-color: bisque;
   padding: 1px;
-  border: 2px;
+  border: 2px solid black; /*  CORREGIDO: Ahora sí se pintará el borde */
+  flex: 1;
 }
+
 
