@@ -1,0 +1,35 @@
+/* estructura
+        selector {property: value;} */
+
+* {
+  color: purple;
+} /* universal color*/
+
+div {
+  color: white;
+} /*solo el div*/
+
+.alert-text {
+  color: red;
+} /*solo para los div que tienen esa clase*/
+
+#title {
+  background-color: red;
+} /*solo para los ID con ese nombre*/
+
+
+.read,
+.unread {} /*forma para nombrar varios grupos*/
+
+/*padding increases the space between the border of a box and the content of the box.
+border adds space (even if it’s only a pixel or two) between the margin and the padding.
+margin increases the space between the borders of a box and the borders of adjacent boxes. *
+
+/* A div is a generic block-level container. A span is a generic inline container.*/
+
+.flex-container{
+  color: aqua;
+  padding: 12px;
+  border: 4px;
+  display: flex;
+}
